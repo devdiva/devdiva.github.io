@@ -3,18 +3,23 @@ title: devdiva.devblog.welcome
 ---
 
 <section class="the-stuff">
-
+   <h1>the devblog</h1>
+   <p>Wherein I talk dev stuff.<p>
+   
+   <address>
+   	hari at devdiva dot com 
+   </address>
+   
 </section>
 
 <section class="the-blog">
-
-<h1>devdiva devblog</h1>
-
-<p>Apparently, I have <%= "#{blog.articles.length} thing#{blog.articles.length>=2?'s':''}" %> to say. Check it out.</p>
+	<p>Apparently, I have <%= "#{blog.articles.length} thing#{blog.articles.length>=2?'s':''}" %> to say. Check it out.</p>
 	
 	<ul>
 	<% blog.articles[0...5].each do | article | %>
 		<li><%= link_to article.title, article.url %></li>
 	<% end %>
 	</ul>
+	
+	<% #todo add pagination %>
 </section>
