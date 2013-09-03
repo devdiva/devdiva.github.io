@@ -1,10 +1,20 @@
 ---
-title: Welcome to Middleman
+title: devdiva.devblog.welcome
 ---
 
-<div class="welcome">
-  <h1>Middleman is Watching</h1>
-  <p class="doc">
-    <%= link_to "Read Online Documentation", "http://middlemanapp.com/" %>
-  </p><!-- .doc -->
-</div><!-- .welcome -->
+<section class="the-stuff">
+
+</section>
+
+<section class="the-blog">
+
+<h1>devdiva devblog</h1>
+
+<p>Apparently, I have <%= "#{blog.articles.length} thing#{blog.articles.length>=2?'s':''}" %> to say. Check it out.</p>
+	
+	<ul>
+	<% blog.articles[0...5].each do | article | %>
+		<li><%= link_to article.title, article.url %></li>
+	<% end %>
+	</ul>
+</section>

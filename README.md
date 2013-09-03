@@ -13,6 +13,15 @@ For now, I am using middleman.  I looked at jekyll and nanoc, but rather than sp
 To-be-clarified.  I'm inclined towards a narrow focus on development for the devblog, but 
 I do have a broader set of interests.  
 
+* Retrospective - Looking backward, to look forward...
+* Security Matters - Pulling my head out of the sand...
+* Test Driven Development
+  * For Ruby
+  * For JavaScript
+  * For CSS and UI?
+* Interactive stuff
+* 
+
 # Editorial Workflow
 
 Just write.

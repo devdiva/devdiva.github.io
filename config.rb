@@ -1,4 +1,13 @@
 ###
+# Settings
+###
+set :site_title, "the devdiva devblog"
+set :site_url, "http://devblog.devdiva.com"
+set :site_description, "The devdiva devblog is where Hari Khalsa documents technical errata and things that interest her."
+set :site_keywords, "meta keywords"
+
+
+###
 # Compass
 ###
 
@@ -29,6 +38,35 @@
 #  :which_fake_page => "Rendering a fake page with a local variable" }
 
 ###
+# Blog
+###
+activate :blog do |blog|
+  # set options on blog - following show defaults that you can override
+  blog.prefix = "blog"
+  blog.permalink = "blog/:year/:title.html" # this was in examples, but seems wiered that perfix repeats blog??
+  # blog.summary_separator = /TLDR/ # defaults to READMORE
+  # blog.paginate = true
+  # blog.page_link = "p:num"
+  # blog.per_page = 20
+  # blog.layout = "blog_layout"
+end
+
+Time.zone = "US/Pacific" # Confirm this or can I set to "San Francisco"
+
+
+
+###
+# Pretty URLs | Directory Indexes
+###
+activate :directory_indexes
+set :index_file, "index.html" # redundant, but you could override to server-requirements, eg. "index.php", "default.html", etc.
+
+# Add opt-out|overrides for pretty urls here (or in the given page's frontmatter)
+# page "/keep-my-url-name-the-same.html", :directory_index => false
+
+
+
+###
 # Helpers
 ###
 
@@ -36,7 +74,7 @@
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# activate :livereload
+ activate :livereload
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -68,3 +106,4 @@ configure :build do
   # Or use a different image path
   # set :http_path, "/Content/images/"
 end
+
