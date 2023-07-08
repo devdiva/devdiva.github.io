@@ -2,7 +2,7 @@
 title: "A look at Quarto..."
 date: "2023-07-03"
 update: "2023-07-04"
-# draft: true
+draft: true
 categories: [static site, document, markdown, publishing, framework]
 ---
 
@@ -39,13 +39,14 @@ window.alert('hi');
 }
 ```
 
-A wide varity of publishing options based on established/stable tech (Pandoc, R Markdown, Knittr).
+A wide varity of rendering options based on established/stable tech (Pandoc, R Markdown, Knittr).
 Interesting options for publishing to wiki's and extension system for customization
 
 - documents like pdf, epub, doc
 - html (as a website, a reveljs presentation, etc.)
 - markdown (some magic here.)
 
+A fairly simple to setup Github Pages and Github Actions workflow.
 
 Resources:
 
