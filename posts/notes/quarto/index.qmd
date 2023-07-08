@@ -3,7 +3,7 @@ title: "A look at Quarto..."
 date: "2023-07-03"
 update: "2023-07-04"
 draft: true
-categories: [static site, document, markdown, publishing, framework]
+categories: [static site, data notebook, markdown, publishing, frameworks]
 ---
 
 A nice (newish) option for data notebooks and technical publishing.  
