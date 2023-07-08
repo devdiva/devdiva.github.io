@@ -28,20 +28,6 @@
     "text": "Consulting\nI do a spot of consulting from time-to-time. Typical engagements are for information architecture, web site design, development and deployment."
   },
   {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Projects."
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "One small goal, achieved.",
-    "section": "",
-    "text": "Most of my writing never sees the light of day. This site update is an effort to change that (at least a little bit).\nFor me, small goals set without any consequence are how I achieve some of my bigger personal goals. This simple framing of perspective let’s me give myself the grace to move fast and slow.\nSo, let’s see where this goes…"
-  },
-  {
     "objectID": "posts/notes/quarto/index.html",
     "href": "posts/notes/quarto/index.html",
     "title": "A look at Quarto…",
@@ -54,5 +40,19 @@
     "title": "devdiva",
     "section": "",
     "text": "A look at Quarto…\n\n\n\n\n\n\n\nstatic site\n\n\ndocument\n\n\nmarkdown\n\n\npublishing\n\n\nframework\n\n\n\n\n\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n  \n\n\n\n\nOne small goal, achieved.\n\n\n\n\n\n\n\nmisc\n\n\n\n\n\n\n\n\n\n\n\nJul 2, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Projects."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "One small goal, achieved.",
+    "section": "",
+    "text": "Most of my writing never sees the light of day. This site update is an effort to change that (at least a little bit).\nFor me, small goals set without any consequence are how I achieve some of my bigger personal goals. This simple framing of perspective let’s me give myself the grace to move fast and slow.\nSo, let’s see where this goes…"
   }
 ]
