@@ -28,11 +28,46 @@
     "text": "Consulting\nI do a spot of consulting from time-to-time. Typical engagements are for information architecture, web site design, development and deployment."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "devdiva",
+    "objectID": "posts/quarto/index.html",
+    "href": "posts/quarto/index.html",
+    "title": "A look at Quarto…",
     "section": "",
-    "text": "One small goal, achieved.\n\n\n\n\n\n\n\nmisc\n\n\n\n\n\n\n\n\n\n\n\nJul 2, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "A nice (newish) option for data notebooks and technical publishing.\nDRAFT"
+  },
+  {
+    "objectID": "posts/quarto/index.html#summary",
+    "href": "posts/quarto/index.html#summary",
+    "title": "A look at Quarto…",
+    "section": "Summary",
+    "text": "Summary\nAnnounced a year ago, Quarto is a pretty tidy publishing system and the evolution of R Markdown. Billed as “an open-source scientific and technical publishing system”, Quarto allows authors to write in Pandoc markdown and publish to multiple document formats. Further, it’s not just for R!\nI’ve been transitioning my personal notebooks to Quarto and have found the paradigm shift to a publishing system matches my workflow pretty nicely. So much so, that I am trying it out here for authoring and publishing as static website.\nOut-of-the-box support for creating data notebooks, dynamic content and diagrams mean very little setup for most use cases. Another really nice aspect is support for multiple authoring tools including R Studio, VS Code, Neovim or any text editor via the CLI.\nSo far, Quarto is really speaking to my polyglot needs. And where it does not, custom extensions offer a path to further tailor the experience and rendering outputs."
+  },
+  {
+    "objectID": "posts/quarto/index.html#overview",
+    "href": "posts/quarto/index.html#overview",
+    "title": "A look at Quarto…",
+    "section": "Overview",
+    "text": "Overview\n\nTools\nI’ve not yet found the one tool to rule them all (pretty sure it doesn’t exist). Quarto’s multi-tool support let’s me choose based on what helps me best to focus or in the context of the type of content.\nI’ve had good experiences so far in the following tools:\n\nCLI\nNeovim\nVS Code\nR Studio\n\nFor this site, I’ve mostly been using VS Code or the CLI. For my various management data workbooks I’ve been using R Studio.\n\n\nAuthoring\nWrite in markdown comfortably using tool of preference. For this site, I’ve mostly been using VS Code and a CLI. For my personal p\n\n\nComputations\n\n\nTools\n\n\nOutputs & Rendering\n\n\n\nDocuments\n\n\nPresentations\n\n\nWebsites\n\n\nBooks\n\n\nInteractivity\n\n\n\nPublishing\n\nWeb::Blog\nPublishing manually or via Github Actions for a PR-based workflow is pretty simple.\nGithub Pages Github Actions\n\n\n\nProjects"
+  },
+  {
+    "objectID": "posts/quarto/index.html#wish-list",
+    "href": "posts/quarto/index.html#wish-list",
+    "title": "A look at Quarto…",
+    "section": "Wish list",
+    "text": "Wish list\nThings to find how to do or customize later.\n\nMetadata\n\nCustom metadata display in articles\n\nstatus I’d like to be able to create status metadata that can be displayed on page\n\n\nCustom templates and starters\nBootstrap is a very good default, but I’d like to have more options to customize\n\nCurrent custom theming still has bootstrap to override\nBootstrap template bugs\n\nSearch icon / menu placement, menu open jitter\n\n\nCLI command to easily create new posts or pages\nCode execution or playgrounds, more immediate wishes are for\n\nJavaScript\nTypescript\nRust, Wasm\nWeb graphics (or codepen embeds?)\n\nGlobal dictionary/constants for categories and keywords\nVSCode markdown formatter (break at char limits or other linting)"
+  },
+  {
+    "objectID": "posts/quarto/index.html#errata",
+    "href": "posts/quarto/index.html#errata",
+    "title": "A look at Quarto…",
+    "section": "Errata",
+    "text": "Errata\n\nQuarto litmus test to try syntax and features"
+  },
+  {
+    "objectID": "posts/quarto/index.html#resources",
+    "href": "posts/quarto/index.html#resources",
+    "title": "A look at Quarto…",
+    "section": "Resources",
+    "text": "Resources\n\nhttps://quarto.org/\nhttps://quarto.org/docs/guide/\nhttps://quarto.org/docs/extensions/creating.html\nhttps://quarto.org/docs/reference/formats/html.html\nhttps://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/"
   },
   {
     "objectID": "projects.html",
@@ -40,6 +75,41 @@
     "title": "Projects",
     "section": "",
     "text": "Projects."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "devdiva",
+    "section": "",
+    "text": "A look at Quarto…\n\n\n\n\n\n\n\nquarto\n\n\nmarkdown\n\n\npublishing\n\n\nopen-source\n\n\n\n\n\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n  \n\n\n\n\nOne small goal, achieved.\n\n\n\n\n\n\n\nmisc\n\n\n\n\n\n\n\n\n\n\n\nJul 2, 2023\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "notes/quarto-scratch/index.html",
+    "href": "notes/quarto-scratch/index.html",
+    "title": "Quarto litmus test",
+    "section": "",
+    "text": "A quick litmus test for Quarto markdown syntax. See the main documentation for more detailed examples: Quarto Guide."
+  },
+  {
+    "objectID": "notes/quarto-scratch/index.html#basics",
+    "href": "notes/quarto-scratch/index.html#basics",
+    "title": "Quarto litmus test",
+    "section": "Basics",
+    "text": "Basics\nQuarto uses Pandoc markdown and the file extension: *.qmd.\n\nUnordered list\n\nComputation\n\nR\nPython\nObservable JS\n\nRendering\n\nScientific markdown (LaTeX equations, citations)\nGraphviz diagrams\nMermaid diagrams\nCode blocks with syntax formatting and annotation\n\n\n\n\nOrdered lists\nYou can make a typical numbered list.\n\nItem one\nItem two\nItem three\n\nItem x\nItem y\n\n\n\nApple\nBanana\nCherry\n\nBing Cherry\nOther Cherries\n\n\nAuto-numbered lists that can be interrupted and resumed.\n\nItem one\n\nItem one:one\nItem one:two\n\n\nsomething else to include\n\nItem two\n\nA definition list\n\nterm one\n\ndefinition of term one\n\nterm two\n\ndefinition of term two\n\n\nYou can also write out checklists…\n\nTasks\n\nTasks\nTasks\n\nTasks"
+  },
+  {
+    "objectID": "notes/quarto-scratch/index.html#code-blocks",
+    "href": "notes/quarto-scratch/index.html#code-blocks",
+    "title": "Quarto litmus test",
+    "section": "Code blocks",
+    "text": "Code blocks\n\n\nx = 1;\n\n\n\n\n\n\n&lt;a href=\"#\"&gt;foo&lt;/a&gt;\n.foo { \n  color: \"#000\";\n  width: 100px;\n}"
+  },
+  {
+    "objectID": "notes/quarto-scratch/index.html#basics-1",
+    "href": "notes/quarto-scratch/index.html#basics-1",
+    "title": "Quarto litmus test",
+    "section": "Basics",
+    "text": "Basics\n\n\n\n\nflowchart LR\n  A[Hard edge] --&gt; B(Round edge)\n  B --&gt; C{Decision}\n  C --&gt; D[Result one]\n  C --&gt; E[Result two]"
   },
   {
     "objectID": "posts/welcome/index.html",

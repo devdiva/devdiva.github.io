@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="dcterms.date" content="2023-07-03">
+<meta name="dcterms.date" content="2023-07-08">
 
-<title>devdiva - A look at Quarto…</title>
+<title>devdiva - Quarto litmus test</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -58,21 +58,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -93,20 +93,23 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-<script type="module" src="../../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
-<link href="../../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+<script type="module" src="../../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+<link href="../../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="../../../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">devdiva</span>
     </a>
   </div>
@@ -117,7 +120,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -131,19 +134,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#basics" id="toc-basics" class="nav-link active" data-scroll-target="#basics">Basics</a>
+  <ul class="collapse">
+  <li><a href="#unordered-list" id="toc-unordered-list" class="nav-link" data-scroll-target="#unordered-list">Unordered list</a></li>
+  <li><a href="#ordered-lists" id="toc-ordered-lists" class="nav-link" data-scroll-target="#ordered-lists">Ordered lists</a></li>
+  </ul></li>
+  <li><a href="#code-blocks" id="toc-code-blocks" class="nav-link" data-scroll-target="#code-blocks">Code blocks</a></li>
+  <li><a href="#basics-1" id="toc-basics-1" class="nav-link" data-scroll-target="#basics-1">Basics</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">A look at Quarto…</h1>
+<h1 class="title">Quarto litmus test</h1>
   <div class="quarto-categories">
-    <div class="quarto-category">static site</div>
-    <div class="quarto-category">data notebook</div>
-    <div class="quarto-category">markdown</div>
-    <div class="quarto-category">publishing</div>
-    <div class="quarto-category">frameworks</div>
+    <div class="quarto-category">quarto</div>
   </div>
   </div>
 
@@ -155,7 +168,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 3, 2023</p>
+      <p class="date">July 8, 2023</p>
     </div>
   </div>
   
@@ -165,25 +178,90 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>A nice (newish) option for data notebooks and technical publishing.</p>
-<p>Announced a year ago, Quarto is a pretty tidy publishing system and the evolution of R Markdown.</p>
-<blockquote class="blockquote">
-<p>An open-source scientific and technical publishing system</p>
-</blockquote>
-<p>Markdown (qmd)</p>
+<p>A quick litmus test for Quarto markdown syntax. See the main documentation for more detailed examples: <a href="https://quarto.org/docs/guide/" target="_blank">Quarto Guide</a>.</p>
+<section id="basics" class="level2">
+<h2 class="anchored" data-anchor-id="basics">Basics</h2>
+<p>Quarto uses Pandoc markdown and the file extension: <code>*.qmd</code>.</p>
+<section id="unordered-list" class="level3">
+<h3 class="anchored" data-anchor-id="unordered-list">Unordered list</h3>
 <ul>
-<li>Mermaid</li>
-<li>Graphviz</li>
+<li>Computation
+<ul>
 <li>R</li>
 <li>Python</li>
 <li>Observable JS</li>
+</ul></li>
+<li>Rendering
+<ul>
+<li>Scientific markdown (LaTeX equations, citations)</li>
+<li>Graphviz diagrams</li>
+<li>Mermaid diagrams</li>
+<li>Code blocks with syntax formatting and annotation</li>
+</ul></li>
 </ul>
-<p>Code block rendering</p>
+</section>
+<section id="ordered-lists" class="level3">
+<h3 class="anchored" data-anchor-id="ordered-lists">Ordered lists</h3>
+<p>You can make a typical numbered list.</p>
+<ol type="1">
+<li>Item one</li>
+<li>Item two</li>
+<li>Item three
+<ol type="1">
+<li>Item x</li>
+<li>Item y</li>
+</ol></li>
+</ol>
+<ol type="a">
+<li>Apple</li>
+<li>Banana</li>
+<li>Cherry
+<ol type="i">
+<li>Bing Cherry</li>
+<li>Other Cherries</li>
+</ol></li>
+</ol>
+<p>Auto-numbered lists that can be interrupted and resumed.</p>
+<ol class="example" type="1">
+<li>Item one
+<ol start="2" class="example" type="1">
+<li>Item one:one</li>
+<li>Item one:two</li>
+</ol></li>
+</ol>
+<p>something else to include</p>
+<ol start="4" class="example" type="1">
+<li>Item two</li>
+</ol>
+<p>A definition list</p>
+<dl>
+<dt>term one</dt>
+<dd>
+definition of term one
+</dd>
+<dt>term two</dt>
+<dd>
+definition of term two
+</dd>
+</dl>
+<p>You can also write out checklists…</p>
+<ul class="task-list">
+<li><input type="checkbox">Tasks
+<ul class="task-list">
+<li><input type="checkbox" checked="">Tasks</li>
+<li><input type="checkbox">Tasks</li>
+</ul></li>
+<li><input type="checkbox">Tasks</li>
+</ul>
+</section>
+</section>
+<section id="code-blocks" class="level2">
+<h2 class="anchored" data-anchor-id="code-blocks">Code blocks</h2>
 <!-- TODO code block overrides working with ojs? -->
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1" data-startfrom="27" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 26;"><span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="bu">window</span><span class="op">.</span><span class="fu">alert</span>(<span class="st">'hi'</span>)<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1" data-startfrom="78" data-source-offset="0"><pre class="sourceCode js code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 77;"><span id="cb1-78"><a href="#cb1-78" aria-hidden="true" tabindex="-1"></a>x <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
-<div id="ojs-cell-1" data-nodetype="expression">
+<div id="ojs-cell-1" data-nodetype="declaration">
 
 </div>
 </div>
@@ -193,32 +271,36 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="kw">color</span>: <span class="st">"#000"</span><span class="op">;</span></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="kw">width</span>: <span class="dv">100</span><span class="dt">px</span><span class="op">;</span></span>
 <span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>A wide varity of rendering options based on established/stable tech (Pandoc, R Markdown, Knittr). Interesting options for publishing to wiki’s and extension system for customization</p>
-<ul>
-<li>documents like pdf, epub, doc</li>
-<li>html (as a website, a reveljs presentation, etc.)</li>
-<li>markdown (some magic here.)</li>
-</ul>
-<p>A fairly simple to setup Github Pages and Github Actions workflow.</p>
-<p>Resources:</p>
-<ul>
-<li>https://quarto.org/</li>
-<li>https://quarto.org/docs/guide/</li>
-<li>https://quarto.org/docs/extensions/creating.html</li>
-<li>https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/</li>
-</ul>
+</section>
+<section id="basics-1" class="level2">
+<h2 class="anchored" data-anchor-id="basics-1">Basics</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">flowchart LR
+  A[Hard edge] --&gt; B(Round edge)
+  B --&gt; C{Decision}
+  C --&gt; D[Result one]
+  C --&gt; E[Result two]
+</pre>
+</div>
+</div>
+</div>
+</div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script type="ojs-module-contents">
-{"contents":[]}
+{"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"x = 1;\n"}]}
 </script>
 <script type="module">
 if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
-window._ojs.paths.runtimeToDoc = "../../posts/notes/quarto";
+window._ojs.paths.runtimeToDoc = "../../notes/quarto-scratch";
 window._ojs.paths.runtimeToRoot = "../..";
-window._ojs.paths.docToRoot = "../../..";
+window._ojs.paths.docToRoot = "../..";
 window._ojs.selfContained = false;
 window._ojs.runtime.interpretFromScriptTags();
 </script>

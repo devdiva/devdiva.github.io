@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-07-03">
+<meta name="keywords" content="quarto, static site, data notebooks, markdown, scientific markdown, technical publishing, document publishing, frameworks, r, python, julia, observable js, mermaid, graphviz">
 
-<title>devdiva</title>
+<title>devdiva - A look at Quarto…</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,23 +25,21 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -60,55 +60,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-<style>
-
-      .quarto-title-block .quarto-title-banner h1,
-      .quarto-title-block .quarto-title-banner h2,
-      .quarto-title-block .quarto-title-banner h3,
-      .quarto-title-block .quarto-title-banner h4,
-      .quarto-title-block .quarto-title-banner h5,
-      .quarto-title-block .quarto-title-banner h6
-      {
-        color: #adb5bd;
-      }
-
-      .quarto-title-block .quarto-title-banner {
-        color: #adb5bd;
-background: #6c757d;
-      }
-</style>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -119,7 +71,7 @@ background: #6c757d;
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">devdiva</span>
     </a>
   </div>
@@ -130,7 +82,7 @@ background: #6c757d;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html" rel="" target="">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -141,101 +93,201 @@ background: #6c757d;
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="markdown">markdown <span class="quarto-category-count">(1)</span></div><div class="category" data-category="misc">misc <span class="quarto-category-count">(1)</span></div><div class="category" data-category="open-source">open-source <span class="quarto-category-count">(1)</span></div><div class="category" data-category="publishing">publishing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="quarto">quarto <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#summary" id="toc-summary" class="nav-link active" data-scroll-target="#summary">Summary</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a>
+  <ul>
+  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
+  <li><a href="#authoring" id="toc-authoring" class="nav-link" data-scroll-target="#authoring">Authoring</a></li>
+  <li><a href="#computations" id="toc-computations" class="nav-link" data-scroll-target="#computations">Computations</a></li>
+  <li><a href="#tools-1" id="toc-tools-1" class="nav-link" data-scroll-target="#tools-1">Tools</a></li>
+  <li><a href="#outputs-rendering" id="toc-outputs-rendering" class="nav-link" data-scroll-target="#outputs-rendering">Outputs &amp; Rendering</a>
+  <ul class="collapse">
+  <li><a href="#documents" id="toc-documents" class="nav-link" data-scroll-target="#documents">Documents</a></li>
+  <li><a href="#presentations" id="toc-presentations" class="nav-link" data-scroll-target="#presentations">Presentations</a></li>
+  <li><a href="#websites" id="toc-websites" class="nav-link" data-scroll-target="#websites">Websites</a></li>
+  <li><a href="#books" id="toc-books" class="nav-link" data-scroll-target="#books">Books</a></li>
+  <li><a href="#interactivity" id="toc-interactivity" class="nav-link" data-scroll-target="#interactivity">Interactivity</a></li>
+  </ul></li>
+  <li><a href="#publishing" id="toc-publishing" class="nav-link" data-scroll-target="#publishing">Publishing</a>
+  <ul class="collapse">
+  <li><a href="#webblog" id="toc-webblog" class="nav-link" data-scroll-target="#webblog">Web::Blog</a></li>
+  </ul></li>
+  <li><a href="#projects" id="toc-projects" class="nav-link" data-scroll-target="#projects">Projects</a></li>
+  </ul></li>
+  <li><a href="#wish-list" id="toc-wish-list" class="nav-link" data-scroll-target="#wish-list">Wish list</a></li>
+  <li><a href="#errata" id="toc-errata" class="nav-link" data-scroll-target="#errata">Errata</a></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">A look at Quarto…</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">quarto</div>
+    <div class="quarto-category">markdown</div>
+    <div class="quarto-category">publishing</div>
+    <div class="quarto-category">open-source</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 3, 2023</p>
+    </div>
+  </div>
+  
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">July 8, 2023</p>
+    </div>
+  </div>
+    
+  </div>
+  
+
+</header>
+
+<p>A nice (newish) option for data notebooks and technical publishing.</p>
+<p><strong>DRAFT</strong></p>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+<p>Announced a year ago, Quarto is a pretty tidy publishing system and the evolution of R Markdown. Billed as “an open-source scientific and technical publishing system”, Quarto allows authors to write in Pandoc markdown and publish to multiple document formats. Further, it’s not just for R!</p>
+<p>I’ve been transitioning my personal notebooks to Quarto and have found the paradigm shift to a publishing system matches my workflow pretty nicely. So much so, that I am trying it out here for authoring and publishing as static website.</p>
+<p>Out-of-the-box support for creating data notebooks, dynamic content and diagrams mean very little setup for most use cases. Another really nice aspect is support for multiple authoring tools including R Studio, VS Code, Neovim or any text editor via the CLI.</p>
+<p>So far, Quarto is really speaking to my polyglot needs. And where it does not, custom extensions offer a path to further tailor the experience and rendering outputs.</p>
+</section>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<section id="tools" class="level3">
+<h3 class="anchored" data-anchor-id="tools">Tools</h3>
+<p>I’ve not yet found the one tool to rule them all (pretty sure it doesn’t exist). Quarto’s multi-tool support let’s me choose based on what helps me best to focus or in the context of the type of content.</p>
+<p>I’ve had good experiences so far in the following tools:</p>
+<ul>
+<li>CLI</li>
+<li>Neovim</li>
+<li>VS Code</li>
+<li>R Studio</li>
+</ul>
+<p>For this site, I’ve mostly been using VS Code or the CLI. For my various management data workbooks I’ve been using R Studio.</p>
+</section>
+<section id="authoring" class="level3">
+<h3 class="anchored" data-anchor-id="authoring">Authoring</h3>
+<p>Write in markdown comfortably using tool of preference. For this site, I’ve mostly been using VS Code and a CLI. For my personal p</p>
+</section>
+<section id="computations" class="level3">
+<h3 class="anchored" data-anchor-id="computations">Computations</h3>
+</section>
+<section id="tools-1" class="level3">
+<h3 class="anchored" data-anchor-id="tools-1">Tools</h3>
+</section>
+<section id="outputs-rendering" class="level3">
+<h3 class="anchored" data-anchor-id="outputs-rendering">Outputs &amp; Rendering</h3>
+
+<!-- A wide variety of rendering options based on established/stable tech (Pandoc, R Markdown, Knittr).
+Interesting options for publishing to wiki's and extension system for customization
+
+- documents like pdf, epub, doc
+- html (as a website, a reveljs presentation, etc.)
+- markdown (some magic here.) -->
+<section id="documents" class="level4">
+<h4 class="anchored" data-anchor-id="documents">Documents</h4>
+</section>
+<section id="presentations" class="level4">
+<h4 class="anchored" data-anchor-id="presentations">Presentations</h4>
+</section>
+<section id="websites" class="level4">
+<h4 class="anchored" data-anchor-id="websites">Websites</h4>
+</section>
+<section id="books" class="level4">
+<h4 class="anchored" data-anchor-id="books">Books</h4>
+</section>
+<section id="interactivity" class="level4">
+<h4 class="anchored" data-anchor-id="interactivity">Interactivity</h4>
+</section>
+</section>
+<section id="publishing" class="level3">
+<h3 class="anchored" data-anchor-id="publishing">Publishing</h3>
+<section id="webblog" class="level4">
+<h4 class="anchored" data-anchor-id="webblog">Web::Blog</h4>
+<p>Publishing manually or via Github Actions for a PR-based workflow is pretty simple.</p>
+<p><a href="https://quarto.org/docs/publishing/github-pages.html" target="_blank">Github Pages</a> <a href="https://docs.github.com/en/actions" target="_blank">Github Actions</a></p>
+</section>
+</section>
+<section id="projects" class="level3">
+<h3 class="anchored" data-anchor-id="projects">Projects</h3>
+</section>
+</section>
+<section id="wish-list" class="level2">
+<h2 class="anchored" data-anchor-id="wish-list">Wish list</h2>
+<p>Things to find how to do or customize later.</p>
+<ul>
+<li>Metadata
+<ul>
+<li>Custom metadata display in articles
+<ul>
+<li><code>status</code> I’d like to be able to create status metadata that can be displayed on page</li>
+</ul></li>
+</ul></li>
+<li>Custom templates and starters</li>
+<li>Bootstrap is a very good default, but I’d like to have more options to customize
+<ul>
+<li>Current custom theming still has bootstrap to override</li>
+<li>Bootstrap template bugs
+<ul>
+<li>Search icon / menu placement, menu open jitter</li>
+</ul></li>
+</ul></li>
+<li>CLI command to easily create new posts or pages</li>
+<li>Code execution or playgrounds, more immediate wishes are for
+<ul>
+<li>JavaScript</li>
+<li>Typescript</li>
+<li>Rust, Wasm</li>
+<li>Web graphics (or codepen embeds?)</li>
+</ul></li>
+<li>Global dictionary/constants for categories and keywords</li>
+<li>VSCode markdown formatter (break at char limits or other linting)</li>
+</ul>
+</section>
+<section id="errata" class="level2">
+<h2 class="anchored" data-anchor-id="errata">Errata</h2>
+<ul>
+<li><a href="../../notes/quarto/" target="_blank">Quarto litmus test</a> to try syntax and features</li>
+</ul>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
+<ul>
+<li>https://quarto.org/</li>
+<li>https://quarto.org/docs/guide/</li>
+<li>https://quarto.org/docs/extensions/creating.html</li>
+<li>https://quarto.org/docs/reference/formats/html.html</li>
+<li>https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/</li>
+</ul>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="quarto,markdown,publishing,open-source" data-listing-date-sort="1688342400000" data-listing-file-modified-sort="1688841435599" data-listing-date-modified-sort="1688774400000" data-listing-reading-time-sort="3">
-<div class="thumbnail">
-<p><a href="./posts/quarto/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/quarto/index.html">
-<h3 class="no-anchor listing-title">
-A look at Quarto…
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('quarto'); return false;">
-quarto
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('markdown'); return false;">
-markdown
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('publishing'); return false;">
-publishing
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('open-source'); return false;">
-open-source
-</div>
-</div>
-<a href="./posts/quarto/index.html">
-<div class="listing-description">
-A nice (newish) option for data notebooks and technical publishing.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/quarto/index.html">
-<div class="listing-date">
-Jul 3, 2023
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="misc" data-listing-date-sort="1688256000000" data-listing-file-modified-sort="1688841435599" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
-One small goal, achieved.
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('misc'); return false;">
-misc
-</div>
-</div>
-<a href="./posts/welcome/index.html">
-<div class="listing-description">
-Most of my writing never sees the light of day. This site update is an effort to change that (at least a little bit).
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-Jul 2, 2023
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

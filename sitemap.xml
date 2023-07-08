@@ -2,18 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://devdiva.com/about.html</loc>
-    <lastmod>2023-07-08T15:07:22.962Z</lastmod>
+    <lastmod>2023-07-08T18:37:31.511Z</lastmod>
   </url>
   <url>
-    <loc>https://devdiva.com/index.html</loc>
-    <lastmod>2023-07-08T15:07:21.034Z</lastmod>
+    <loc>https://devdiva.com/posts/quarto/index.html</loc>
+    <lastmod>2023-07-08T18:37:30.931Z</lastmod>
   </url>
   <url>
     <loc>https://devdiva.com/projects.html</loc>
-    <lastmod>2023-07-08T15:07:21.702Z</lastmod>
+    <lastmod>2023-07-08T18:37:29.891Z</lastmod>
+  </url>
+  <url>
+    <loc>https://devdiva.com/index.html</loc>
+    <lastmod>2023-07-08T18:37:29.283Z</lastmod>
+  </url>
+  <url>
+    <loc>https://devdiva.com/notes/quarto-scratch/index.html</loc>
+    <lastmod>2023-07-08T18:37:30.519Z</lastmod>
   </url>
   <url>
     <loc>https://devdiva.com/posts/welcome/index.html</loc>
-    <lastmod>2023-07-08T15:07:22.666Z</lastmod>
+    <lastmod>2023-07-08T18:37:31.211Z</lastmod>
   </url>
 </urlset>
