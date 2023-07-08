@@ -28,18 +28,11 @@
     "text": "Consulting\nI do a spot of consulting from time-to-time. Typical engagements are for information architecture, web site design, development and deployment."
   },
   {
-    "objectID": "posts/notes/quarto/index.html",
-    "href": "posts/notes/quarto/index.html",
-    "title": "A look at Quarto…",
-    "section": "",
-    "text": "A nice (newish) option for data notebooks and technical publishing.\nAnnounced a year ago, Quarto is a pretty tidy publishing system and the evolution of R Markdown.\n\nAn open-source scientific and technical publishing system\n\nMarkdown (qmd)\n\nMermaid\nGraphviz\nR\nPython\nObservable JS\n\nCode block rendering\n\n\nwindow.alert('hi');\n\n\n\n\n\n\n&lt;a href=\"#\"&gt;foo&lt;/a&gt;\n.foo { \n  color: \"#000\";\n  width: 100px;\n}\nA wide varity of publishing options based on established/stable tech (Pandoc, R Markdown, Knittr). Interesting options for publishing to wiki’s and extension system for customization\n\ndocuments like pdf, epub, doc\nhtml (as a website, a reveljs presentation, etc.)\nmarkdown (some magic here.)\n\nResources:\n\nhttps://quarto.org/\nhttps://quarto.org/docs/guide/\nhttps://quarto.org/docs/extensions/creating.html\nhttps://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "devdiva",
     "section": "",
-    "text": "A look at Quarto…\n\n\n\n\n\n\n\nstatic site\n\n\ndocument\n\n\nmarkdown\n\n\npublishing\n\n\nframework\n\n\n\n\n\n\n\n\n\n\n\nJul 3, 2023\n\n\n\n\n\n\n  \n\n\n\n\nOne small goal, achieved.\n\n\n\n\n\n\n\nmisc\n\n\n\n\n\n\n\n\n\n\n\nJul 2, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "One small goal, achieved.\n\n\n\n\n\n\n\nmisc\n\n\n\n\n\n\n\n\n\n\n\nJul 2, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html",
