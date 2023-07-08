@@ -1,8 +1,8 @@
 ---
 title: "About"
-image: profile.jpg
+# image: profile.jpg
 about:
-  template: trestles
+  template: broadside
   links:
     - icon: box
       text: Codepen
