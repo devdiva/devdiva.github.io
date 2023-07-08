@@ -1,0 +1,125 @@
+---
+title: "A look at Quarto..."
+date: "2023-07-03"
+date-modified: "2023-07-08"
+# draft: true
+categories: [quarto, markdown, publishing, open-source]
+keywords: [quarto, static site, data notebooks, markdown, scientific markdown, technical publishing, document publishing, frameworks, r, python, julia, observable js, mermaid, graphviz]
+toc: true
+toc-depth: 4
+toc-location: right
+status: draft
+---
+
+A nice (newish) option for data notebooks and technical publishing.  
+
+**DRAFT**
+
+## Summary
+
+Announced a year ago, Quarto is a pretty tidy publishing system and the evolution of R Markdown.
+Billed as "an open-source scientific and technical publishing system", Quarto allows authors to
+write in Pandoc markdown and publish to multiple document formats.  Further, it's not just for R!
+
+I've been transitioning my personal notebooks to Quarto and have found the paradigm shift to a
+publishing system matches my workflow pretty nicely.  So much so, that I am tyring it out here
+for authoring and publishing as static website.
+
+Out-of-the-box support for creating data notebooks, dynamic content and diagrams mean very little
+setup for most use cases.  Another really nice aspect is support for multiple authoring tools
+including R Studio, VS Code, Neovim or any text editor via the CLI. 
+
+So far, Quarto is really speaking to my polyglot needs.  And where it does not, custom extensions
+offer a path to further tailor the experience and rendering outputs.
+
+## Overview
+
+### Tools
+
+I've not yet found the one tool to rule them all (pretty sure it doesn't exist). 
+Quarto's multi-tool support let's me choose based on what helps me best to focus
+or in the context of the type of content.  
+
+I've had good experiences so far in the following tools:
+
+* CLI
+* Neovim
+* VS Code
+* R Studio
+
+For this site, I've mostly been using VS Code or the CLI.  For my various management
+data workbooks I've been using R Studio.
+
+
+### Authoring
+
+Write in markdown comfortably using tool of preference.  For this site, I've mostly been using VS Code and a CLI.  For my personal p
+
+### Computations
+
+### Tools
+
+### Outputs & Rendering
+
+<!-- A wide varity of rendering options based on established/stable tech (Pandoc, R Markdown, Knittr).
+Interesting options for publishing to wiki's and extension system for customization
+
+- documents like pdf, epub, doc
+- html (as a website, a reveljs presentation, etc.)
+- markdown (some magic here.) -->
+
+#### Documents
+
+#### Presentations
+
+#### Websites
+
+#### Books
+
+#### Interactivity
+
+### Publishing
+
+#### Web::Blog
+
+Publishing manually or via Github Actions for a PR-based workflow is pretty simple.
+
+[Github Pages](https://quarto.org/docs/publishing/github-pages.html){target="_blank"}
+[Github Actions](https://docs.github.com/en/actions){target="_blank"}
+
+
+### Projects
+
+
+## Wishlist
+
+Things to find how to do or customize later.
+
+* Metadata
+  - Custom metadata display in articles
+    - `status` I'd like to be able to create status metadata that can be displayed on page
+* Custom templates and starters
+* Boostrap is a very good default, but I'd like to have more options to customize
+  - Current custom theming still has bootstrap to override
+  - Bootstrap template bugs
+    - Search icon / menu placement, menu open jitter
+* CLI command to easily create new posts or pages
+* Code execution or playgrounds, more immediate wishes are for
+  - JavaScript
+  - Typescript
+  - Rust, Wasm
+  - Web graphics (or codepen embeds?)
+* Global dictionary/constants for categories and keywords
+* VSCode markdown formatter (break at char limits or other linting)
+
+## Errata
+
+* [Quarto litmus test](/notes/quarto/){target="_blank"} to try syntax and features
+
+## Resources
+
+* https://quarto.org/
+* https://quarto.org/docs/guide/
+* https://quarto.org/docs/extensions/creating.html
+* https://quarto.org/docs/reference/formats/html.html
+* https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/
