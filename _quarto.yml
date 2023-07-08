@@ -1,0 +1,29 @@
+project:
+  type: website
+execute:
+  freeze: auto
+website:
+  title: "devdiva"
+  navbar:
+    logo-alt: "devdiva"
+    background: secondary
+    collapse: true
+    pinned: true
+    search: true
+    right:
+      - about.qmd      
+  page-footer: 
+    left: "&copy; 1999-2023 devdiva, Hari Datti Khalsa." 
+    right: 
+      - icon: github
+        href: https://github.com/devdiva
+      - icon: linkedin
+        href: https://linkedin.com/    
+format:
+  html:
+    theme: 
+      - simplex
+      - custom.scss
+
+
+

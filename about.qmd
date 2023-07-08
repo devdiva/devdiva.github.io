@@ -1,0 +1,33 @@
+---
+title: "About"
+image: profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: box
+      text: Codepen
+      href: http://codepen.io
+    - icon: linkedin
+      text: LinkedIn
+      href: https://linkedin.com
+    - icon: github
+      text: Github
+      href: https://github.com
+
+---
+
+
+## About DEVDIVA
+
+DEVDIVA started in 1999 as an aspirational moniker. I've grown with the web over the years, graduating from brochureware to web applications to social networking sites to services-based application ecosystems. DEVDIVA is my ever-evolving personal and professional site.
+
+## About Me
+
+I am a technology consultant in San Francisco, CA.
+
+Previous projects include work for Fortune 500 companies, social networking startups, charitable organizations, network service providers, email marketing and interactive design agencies.
+
+## Consulting
+
+I do a spot of consulting from time-to-time. Typical engagements are for information architecture, web site design, development and deployment.
+
