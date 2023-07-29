@@ -1,10 +1,18 @@
 /*-- scss:defaults --*/
+/* See: https://github.com/twbs/bootstrap/blob/main/scss/_variables.scss */
 $h1-font-size:          1.5rem !default;
 $h2-font-size:          1.25rem !default;
 $h3-font-size:          1.25rem !default;
-$headings-font-size:  1rem !default;
+$headings-font-size:  	1rem !default;
 $headings-font-weight:  100 !default;
 // $body-color:            #CCC !default;
+
+$link-color:                              rgb(2, 154, 207) !default;
+$link-decoration:                         underline !default;
+$link-shade-percentage:                   20% !default;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:                   null !default;
+
 
 /*-- scss:rules --*/
 h1, h2, h3, h4, h5, h6 {
@@ -27,6 +35,13 @@ h3 {
 // .navbar #quarto-search {
 //   display: none;
 // }
+
+#quarto-document-content > p:first-of-type {
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	width: 80%;
+	color: rgba(0,0,0,0.5);
+}
 
 .quarto-title-banner .quarto-title .title {
   font-weight: $headings-font-weight;

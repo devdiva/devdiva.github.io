@@ -11,51 +11,73 @@ toc-location: right
 status: draft
 ---
 
-A nice (newish) option for data notebooks and technical publishing.  
+A nice (newish) option for data notebooks and&nbsp;technical publishing.  
 
 **DRAFT**
 
 ## Summary
 
-Announced a year ago, Quarto is a pretty tidy publishing system and the evolution of R Markdown.
-Billed as "an open-source scientific and technical publishing system", Quarto allows authors to
-write in Pandoc markdown and publish to multiple document formats.  Further, it's not just for R!
+Quarto tidily fits the billing of "an open-source scientific and technical publishing 
+system".  Announced a year ago, Quarto is the evolution of R Markdown and does quite a 
+bit more than just R.  
 
-I've been transitioning my personal notebooks to Quarto and have found the paradigm shift to a
-publishing system matches my workflow pretty nicely.  So much so, that I am trying it out here
-for authoring and publishing as static website.
+I've been transitioning my personal notebooks to Quarto and so far it's ticking all the 
+boxes.  So much so, I'm trying it out for authoring and publishing this static web&nbsp;site.
 
-Out-of-the-box support for creating data notebooks, dynamic content and diagrams mean very little
-setup for most use cases.  Another really nice aspect is support for multiple authoring tools
-including R Studio, VS Code, Neovim or any text editor via the CLI. 
+Authors write in Pandoc markdown, can switch smoothly between authoring tools or
+IDEs and publish to multiple formats.  Out-of-the-box support for creating data notebooks,
+dynamic content and diagrams mean very little setup for most use cases.  Another really 
+nice aspect is support for multiple authoring tools including R&nbsp;Studio, VS Code, Neovim or 
+any text editor via the CLI. 
 
-So far, Quarto is really speaking to my polyglot needs.  And where it does not, custom extensions
-offer a path to further tailor the experience and rendering outputs.
+So far, Quarto is really speaking to my polyglot needs.  And where it does not, custom
+extensions offer a path to further tailor the experience and rendering outputs.
+
+###
 
 ## Overview
 
+The Quarto CLI can be installed on multiple platforms. For this overview, I've been using
+a couple flavors of MacOS.
+
 ### Tools
 
-I've not yet found the one tool to rule them all (pretty sure it doesn't exist). 
-Quarto's multi-tool support let's me choose based on what helps me best to focus
-or in the context of the type of content.  
+I like switching tools based on context or device limitations.   Quarto's multi-tool 
+support lets me use the tool for my current context or focus.
 
-I've had good experiences so far in the following tools:
-
-* CLI
-* Neovim
-* VS Code
 * R Studio
+* Jupyter _Not yet tried._
+* Neovim _Not yet tried_
+* VS Code
+* CLI
 
-For this site, I've mostly been using VS Code or the CLI.  For my various management
-data workbooks I've been using R Studio.
+
+For this site, I've mostly been using VS Code, CLI or another text editor.  For my various 
+management data workbooks I've been using R Studio.
+
+<!-- TODO any note on VS Code experience for data notebooks. -->
 
 
 ### Authoring
 
-Write in markdown comfortably using tool of preference.  For this site, I've mostly been using VS Code and a CLI.  For my personal p
+Pandoc markdown extends and revises markdown syntax.  There are some syntactic shifts, but 
+writing still emphasizes ease of writing and reading.
+
+Big bonuses are:
+
+* Diagram support out-of-the-box for graphviz and mermaid
+* More robust list options
+
+Authors can add more formatting control with Pandoc, or opt to stick with the sparer 
+style of plain old markdown.
+
 
 ### Computations
+
+```{r}
+#| echo: true
+x <- 2
+```
 
 ### Tools
 
@@ -91,6 +113,13 @@ Publishing manually or via Github Actions for a PR-based workflow is pretty simp
 ### Projects
 
 
+## Experience
+
+Things to look into or see where help is possible.
+
+Preview/live reload -- sluggish or odd response times.
+
+
 ## Wish list
 
 Things to find how to do or customize later.
@@ -111,6 +140,7 @@ Things to find how to do or customize later.
   - Web graphics (or codepen embeds?)
 * Global dictionary/constants for categories and keywords
 * VSCode markdown formatter (break at char limits or other linting)
+* System dynamics models (via R or python)
 
 ## Errata
 
@@ -118,8 +148,10 @@ Things to find how to do or customize later.
 
 ## Resources
 
-* https://quarto.org/
-* https://quarto.org/docs/guide/
-* https://quarto.org/docs/extensions/creating.html
-* https://quarto.org/docs/reference/formats/html.html
-* https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/
+* [https://quarto.org/](https://quarto.org/){target="_blank"}
+* [https://quarto.org/docs/download/](https://quarto.org/docs/download/){target="_blank"}
+* [https://quarto.org/docs/guide/](https://quarto.org/docs/guide/){target="_blank"}
+* [https://quarto.org/docs/extensions/creating.html](https://quarto.org/docs/extensions/creating.html){target="_blank"}
+* [https://quarto.org/docs/reference/formats/html.html](https://quarto.org/docs/reference/formats/html.html){target="_blank"}
+* [https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/](https://posit.co/blog/announcing-quarto-a-new-scientific-and-technical-publishing-system/){target="_blank"}
+* https://garrettgman.github.io/rmarkdown/authoring_pandoc_markdown.html
